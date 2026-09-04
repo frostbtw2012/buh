@@ -7,6 +7,9 @@ file = ".dockerignore"
 file = ".github/workflows/dev-server.yml"
 
 [[files]]
+file = ".github/workflows/release.yml"
+
+[[files]]
 file = "README.md"
 
 [[files]]
@@ -775,6 +778,12 @@ file = "config/waterflasks-common.toml"
 file = "config/xercapaint-server.toml"
 
 [[files]]
+file = "datapacks/neoorigins_dwarf_datapack.zip"
+
+[[files]]
+file = "datapacks/neoorigins_elf_datapack.zip"
+
+[[files]]
 file = "docker/Dockerfile"
 
 [[files]]
@@ -965,6 +974,10 @@ metafile = true
 
 [[files]]
 file = "mods/caelus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cascademc.pw.toml"
 metafile = true
 
 [[files]]
@@ -1172,6 +1185,10 @@ file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexcast-neoforged.pw.toml"
 metafile = true
 
@@ -1285,6 +1302,14 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/minecraft-mod-terraindustry.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/minecraft-mod-terraskills.pw.toml"
 metafile = true
 
 [[files]]
