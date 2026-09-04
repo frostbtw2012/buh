@@ -25,5 +25,5 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     const brickType = ['granite','diorite','gabbro','shale','claystone','limestone','conglomerate','dolomite','chert','chalk','tuff','rhyolite','basalt','andesite','dacite','quartzite','slate','phyllite','schist','gneiss','marble']
     brickType.forEach(type => {
-        event.recipes.create.sandpaper_polishing('tfcthings:whetstone', `tfc:brick/${type}`)
+        event.recipes.create.sandpaper_polishing('tfcthings:whetstone', `tfc:brick/${type}`).id('tfcthings:sandpaper_polishing/whetstone')
         })})

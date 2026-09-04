@@ -205,6 +205,9 @@ file = "config/decay_2012-server.toml"
 file = "config/delightfulcreators-server.toml"
 
 [[files]]
+file = "config/discordintegration-server.toml"
+
+[[files]]
 file = "config/dndecor-server.toml"
 
 [[files]]
@@ -424,6 +427,9 @@ file = "config/jei/world/local/New World (2)/lookupHistory.json"
 file = "config/jei/world/local/New World/lookupHistory.json"
 
 [[files]]
+file = "config/jei/world/server/Minecraft Server (minecraft_digitalgames_ca)/lookupHistory.json"
+
+[[files]]
 file = "config/journeymap-server.toml"
 
 [[files]]
@@ -544,6 +550,18 @@ file = "config/neoforge-common.toml"
 file = "config/neoforge-server.toml"
 
 [[files]]
+file = "config/neoorigins/admin.toml"
+
+[[files]]
+file = "config/neoorigins/client.toml"
+
+[[files]]
+file = "config/neoorigins/gameplay.toml"
+
+[[files]]
+file = "config/neoorigins/power_overrides.toml"
+
+[[files]]
 file = "config/origins.json"
 
 [[files]]
@@ -578,6 +596,9 @@ file = "config/sliceanddice-client.toml"
 
 [[files]]
 file = "config/sliceanddice-common.toml"
+
+[[files]]
+file = "config/snatched_config_-5216816109932813918.json"
 
 [[files]]
 file = "config/snatched_config_-5277158511244451204.json"
@@ -620,6 +641,9 @@ file = "config/tabchannel-common.toml"
 
 [[files]]
 file = "config/tabchannel/hud_layout.json"
+
+[[files]]
+file = "config/tabchannel/mp_minecraft.digitalgames.ca_minecraft_server.json"
 
 [[files]]
 file = "config/tabchannel/mp_singleplayer.json"
@@ -821,6 +845,12 @@ file = "kubejs/config/tfc.json"
 
 [[files]]
 file = "kubejs/config/web_server.json"
+
+[[files]]
+file = "kubejs/index.toml"
+
+[[files]]
+file = "kubejs/pack.toml"
 
 [[files]]
 file = "kubejs/package.json"
