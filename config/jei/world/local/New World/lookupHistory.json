@@ -1,5 +1,14 @@
 [
   {"version":1},
+  {"ingredient":{"id":"gtceu:refined_emerald_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gtceu:raw_realgar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gtceu:raw_thorium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"greate:large_aluminium_cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"greate:stainless_steel_cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gtceu:darmstadtium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gtceu:darmstadtium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gtceu:darmstadtium_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"greate:neutronium_cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:metal/anvil/copper","components":"{\"tfc:heat\":{}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"delightfulcreators:mechanical_cutter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

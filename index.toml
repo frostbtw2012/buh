@@ -133,6 +133,9 @@ file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
 [[files]]
+file = "config/configuration-options.json"
+
+[[files]]
 file = "config/configured-client.properties"
 hash = "a9f1058d68eb630eb4783d12da4a5dea5c2f5481fdf38280e33944b9593d2d9c"
 
@@ -147,6 +150,9 @@ hash = "cce3eab1a290cc1f0eada00031f0577f661f883aee3438cf1139283c65d1f319"
 [[files]]
 file = "config/create-common.toml"
 hash = "3291675385ad25c0f4d6a9bf9c1a7815bb9660017bc68fa793fe2295da7d589b"
+
+[[files]]
+file = "config/create-server-1.toml.bak"
 
 [[files]]
 file = "config/create-server.toml"
@@ -468,6 +474,15 @@ file = "config/ftbxmodcompat.snbt"
 hash = "1227e1dd97b7c71deaa0b47abf0ec446db955b6cb8f1db0e877a22f095dd9780"
 
 [[files]]
+file = "config/greate-recipes.yaml"
+
+[[files]]
+file = "config/greate-server.toml"
+
+[[files]]
+file = "config/gtceu.yaml"
+
+[[files]]
 file = "config/hexcasting-client.toml"
 hash = "a30ca5a5e66cfb162b9b5b3a81cd525c0d8cc072b29eec8535f2a8b583afc26a"
 
@@ -570,6 +585,9 @@ hash = "f333d8c15b2dae2a434395737574b4679308f0a78f13942179afc13bad40c60a"
 [[files]]
 file = "config/jei/world/local/New World/lookupHistory.json"
 hash = "ac996f7bbca5fd702949dceca33e0d7ebb2815ef6c607d76b49ebea268edab29"
+
+[[files]]
+file = "config/jei/world/local/gerg/lookupHistory.json"
 
 [[files]]
 file = "config/jei/world/server/Minecraft Server (minecraft_digitalgames_ca)/lookupHistory.json"
@@ -723,6 +741,9 @@ file = "config/moonlight-common.toml"
 hash = "ce17e22174f8d796e792c87dbe7c2cff8360686edfb59080adf905e26df144ea"
 
 [[files]]
+file = "config/necronomicon.json5"
+
+[[files]]
 file = "config/neoforge-client.toml"
 hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
 
@@ -743,6 +764,9 @@ file = "config/neoorigins/admin.toml"
 
 [[files]]
 file = "config/neoorigins/client.toml"
+
+[[files]]
+file = "config/neoorigins/content.toml"
 
 [[files]]
 file = "config/neoorigins/gameplay.toml"
@@ -804,6 +828,9 @@ file = "config/snatched_config_-5216816109932813918.json"
 [[files]]
 file = "config/snatched_config_-5277158511244451204.json"
 hash = "e0c3199fcf2b4ef2d824f03a20c44ff4741a368047fa010cf0f91bacb1069412"
+
+[[files]]
+file = "config/snatched_config_1477663930589749576.json"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -875,6 +902,12 @@ hash = "0541f31c064229a39a8af7541f812e278fde0fa7381ee78b72dc47742fde4e13"
 [[files]]
 file = "config/tabchannel/stream_overlay.json"
 hash = "448c91c832f9d68a24b08eb0f2a1592329c79b311322601ff0126a95f9794c85"
+
+[[files]]
+file = "config/terraskills-client.toml"
+
+[[files]]
+file = "config/terraskills-server.toml"
 
 [[files]]
 file = "config/territory-server.toml"
@@ -1167,6 +1200,12 @@ file = "kubejs/server_scripts/frost/anvil.js"
 hash = "65702e7760f71731dc80f850d7855731a3b58e6bd1a914e961980c1df1581230"
 
 [[files]]
+file = "kubejs/server_scripts/frost/create_chudd.js"
+
+[[files]]
+file = "kubejs/server_scripts/frost/hide_item.js"
+
+[[files]]
 file = "kubejs/server_scripts/frost/metal_properties.js"
 hash = "34a6bbac7e240bd08732da3069f141e936ab146786570f2df955577b09ba3ead"
 
@@ -1373,6 +1412,10 @@ hash = "6938b71b23a0f8a30e862598f34fc65d20aca21165265f385354a8e9fc9f8ed2"
 metafile = true
 
 [[files]]
+file = "mods/create-dragons-plus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-horse-power.pw.toml"
 hash = "2afad298a68b029c1100b61e2676b13d531b4ead7bb1be1c4c3f8f0e174a4868"
 metafile = true
@@ -1394,7 +1437,6 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-hash = "ff20587afedd29e22d1a893fe0061845fe5c409d92feb4b8be4052a3ed504855"
 metafile = true
 
 [[files]]
@@ -1505,6 +1547,14 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+metafile = true
+
+[[files]]
+file = "mods/greate-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/gregtech-modern-reborn.pw.toml"
 metafile = true
 
 [[files]]
@@ -1619,7 +1669,6 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-tfc.pw.toml"
-hash = "9c2add9082b66545ed92dc750e3e89f2aecf9c4333ff459dca35350a4c7300df"
 metafile = true
 
 [[files]]
