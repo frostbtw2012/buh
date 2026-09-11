@@ -1070,6 +1070,9 @@ file = "datapacks/neoorigins_avian_datapack.zip"
 hash = "59872169e75291ebc3470f0d210a3175bbdf901d1ff088f529c439e8b19bb625"
 
 [[files]]
+file = "datapacks/neoorigins_avian_datapack.zip"
+
+[[files]]
 file = "datapacks/neoorigins_dwarf_datapack.zip"
 hash = "fa9a45d706fe7736b6a253e89884572936ffd740294a6b38f8d6d26468e779e3"
 
@@ -1088,6 +1091,15 @@ hash = "1fcb08afe5f9a5dca61f38552196f089f0388b144d75295f5e27c96844aec94f"
 [[files]]
 file = "datapacks/neoorigins_merfolk_datapack.zip"
 hash = "d700a4d9c8eb084b359ea38d06fce2d06a15c29331d53c08b9a9c458ac902ccd"
+
+[[files]]
+file = "datapacks/neoorigins_human_datapack.zip"
+
+[[files]]
+file = "datapacks/neoorigins_mantleforged_datapack.zip"
+
+[[files]]
+file = "datapacks/neoorigins_merfolk_datapack.zip"
 
 [[files]]
 file = "docker/Dockerfile"
@@ -1156,6 +1168,9 @@ hash = "f75be895bdedc94a66ce8d74bcd51c2b0b25fbcbafc5a9cf5d60dc584a06c1a7"
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
+
+[[files]]
+file = "kubejs/client_scripts/mustache/rename.js"
 
 [[files]]
 file = "kubejs/client_scripts/renaming.js"
@@ -1240,6 +1255,9 @@ hash = "b1c3cfbab1fcef74e32798e465049e15e7fe0f14368bd42a1d13a88a271d2c34"
 [[files]]
 file = "kubejs/server_scripts/mepafolderserver/hardtack sandwich/sandwichnutrition.js"
 hash = "695f1d7073cb38d407bdc102bfe9be51473df96ed3f560b6d4d6e9da14875b4d"
+
+[[files]]
+file = "kubejs/server_scripts/mustache/create.js"
 
 [[files]]
 file = "kubejs/server_scripts/profession/adventurer/adventurer_tools_recipe.js"
