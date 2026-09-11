@@ -53,3 +53,12 @@ ServerEvents.tags('item', event => {
         event.add('terra:removed', `greate:${metal}_vertical_gearbox`)
         });
     })
+
+ServerEvents.tags("item", event => {
+    const metals = ['copper', 'bronze','bismuth_bronze','black_bronze','wrought_iron','steel','black_steel','red_steel','blue_steel']
+    metals.forEach(metal => {
+        event.add(
+            "createvintageneoforged:custom_hammering_blocks",
+            `tfc:metal/anvil/${metal}`
+        )
+    })})

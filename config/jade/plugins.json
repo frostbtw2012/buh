@@ -68,15 +68,51 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "thermia": {
+    "entity_temperature_tooltip": true
+  },
+  "kubejs_tfc": {
+    "heat_consumer": true
+  },
+  "tfcoffsetsmoker": {
+    "jade.offset_smoker": true
+  },
+  "survivorsbutchercraft": {
+    "meat_hook": true
+  },
+  "tfcthings": {
+    "snare": true,
+    "fishing_net_anchor": true,
+    "gem_display": true,
+    "grindstone_base": true,
+    "grain_pile": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "astages": {
+    "block_component_provider": true
+  },
+  "kaleidoscopetfctavern": {
+    "grape_climate": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,
     "block": true,
     "entity": true,
     "entity_variant": true
-  },
-  "ftbquests": {
-    "barrier": true
   },
   "ktfcc": {
     "decaying": true,
@@ -105,23 +141,6 @@
     "cable_info": true,
     "parallel_info": true,
     "data_bank": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
-  },
-  "thermia": {
-    "entity_temperature_tooltip": true
-  },
-  "kubejs_tfc": {
-    "heat_consumer": true
   },
   "neoorigins": {
     "origin": true
@@ -209,9 +228,6 @@
     "wet_concrete": true,
     "ingot_pile": true
   },
-  "survivorsbutchercraft": {
-    "meat_hook": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -221,19 +237,6 @@
   },
   "jadeaddons.lootr": {
     "info": true
-  },
-  "farmerstfc": {
-    "decaying": true,
-    "cake": true,
-    "stove": true,
-    "crate": true
-  },
-  "tfcthings": {
-    "snare": true,
-    "fishing_net_anchor": true,
-    "gem_display": true,
-    "grindstone_base": true,
-    "grain_pile": true
   },
   "kaleidoscope_cookery": {
     "chopping_board": true,
@@ -245,9 +248,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "astages": {
-    "block_component_provider": true
   },
   "firmasupps": {
     "candle_holder": true,
