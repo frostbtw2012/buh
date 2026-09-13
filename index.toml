@@ -451,21 +451,6 @@ file = "config/jei/jei-mod-id-format.ini"
 file = "config/jei/recipe-category-sort-order.ini"
 
 [[files]]
-file = "config/jei/world/local/New World (2)/lookupHistory.json"
-
-[[files]]
-file = "config/jei/world/local/New World/lookupHistory.json"
-
-[[files]]
-file = "config/jei/world/local/gerg/lookupHistory.json"
-
-[[files]]
-file = "config/jei/world/local/grape/lookupHistory.json"
-
-[[files]]
-file = "config/jei/world/server/Minecraft Server (minecraft_digitalgames_ca)/lookupHistory.json"
-
-[[files]]
 file = "config/journeymap-server.toml"
 
 [[files]]
@@ -832,6 +817,9 @@ file = "config/transition.json"
 file = "config/trender.json"
 
 [[files]]
+file = "config/trotting_wagons-server.toml"
+
+[[files]]
 file = "config/voicechat/category-volumes.properties"
 
 [[files]]
@@ -862,22 +850,10 @@ file = "config/xercapaint-server.toml"
 file = "datapacks/neoorigins_avian_datapack.zip"
 
 [[files]]
-file = "datapacks/neoorigins_avian_datapack.zip"
-
-[[files]]
 file = "datapacks/neoorigins_dwarf_datapack.zip"
 
 [[files]]
 file = "datapacks/neoorigins_elf_datapack.zip"
-
-[[files]]
-file = "datapacks/neoorigins_human_datapack.zip"
-
-[[files]]
-file = "datapacks/neoorigins_mantleforged_datapack.zip"
-
-[[files]]
-file = "datapacks/neoorigins_merfolk_datapack.zip"
 
 [[files]]
 file = "datapacks/neoorigins_human_datapack.zip"
@@ -931,10 +907,34 @@ file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/steel.png"
 file = "kubejs/assets/even_more_tfc/textures/item/metal/triple_ingot/wrought_iron.png"
 
 [[files]]
+file = "kubejs/assets/terra/textures/block/vermilion_fluid.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/dried_flower_shaving.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/flower_shaving.png"
+
+[[files]]
 file = "kubejs/assets/terra/textures/item/hardtack_sandwich.png"
 
 [[files]]
+file = "kubejs/assets/terra/textures/item/horn_powder.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/medicine.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/medicine_base.png"
+
+[[files]]
 file = "kubejs/assets/terra/textures/item/unfired_ceremetal.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/vermilion_base.png"
+
+[[files]]
+file = "kubejs/assets/terra/textures/item/vermilion_crystal.png"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
@@ -974,9 +974,6 @@ file = "kubejs/package.json"
 
 [[files]]
 file = "kubejs/server_scripts/frost/anvil.js"
-
-[[files]]
-file = "kubejs/server_scripts/frost/create_chudd.js"
 
 [[files]]
 file = "kubejs/server_scripts/frost/hide_item.js"
@@ -1030,10 +1027,52 @@ file = "kubejs/server_scripts/profession/smith/smith_recipe_lock.js"
 file = "kubejs/server_scripts/profession/smith/smith_recipe_unspecialized.js"
 
 [[files]]
+file = "kubejs/server_scripts/yumi/medicine/dried_flower_shaving_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/flower_shaving_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/horn_powder_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_base_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_effect.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/medicine_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_base_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_crystal_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/medicine/vermilion_fluid_recipe.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/fluid_tag.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/horns_tag.js"
+
+[[files]]
+file = "kubejs/server_scripts/yumi/tags/reagents_tag.js"
+
+[[files]]
+file = "kubejs/startup_scripts/fluids.js"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
+file = "kubejs/startup_scripts/medicine.js"
 
 [[files]]
 file = "kubejs/startup_scripts/sledgehammer_excavator_durability.js"
@@ -1606,6 +1645,10 @@ metafile = true
 
 [[files]]
 file = "mods/torque-link-create-to-tfc.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trotting-wagons.pw.toml"
 metafile = true
 
 [[files]]
