@@ -1,0 +1,4 @@
+[debug]
+	#Enable extra FFUtilities debug logging (validators, soft-compat misses).
+	#Example: true while diagnosing a missing optional mod or a bad config list entry.
+	debugLogging = false

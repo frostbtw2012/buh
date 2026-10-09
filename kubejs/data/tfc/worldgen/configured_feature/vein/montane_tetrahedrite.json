@@ -1,0 +1,120 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 9,
+    "density": 0.25,
+    "min_y": 90,
+    "max_y": 270,
+    "size": 34,
+    "random_name": "montane_tetrahedrite",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/quartzite"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "quartzite"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/slate"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "slate"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/phyllite"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "phyllite"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/schist"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "schist"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/gneiss"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "gneiss"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/marble"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_alexandriite_ore",
+              "Properties": {
+                "rock": "marble"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 8,
+      "depth": 35,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_tetrahedrite"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+#Dynamic Tree Physics — Dynamic Trees felling, handed to Sable/Tree Physics.
+[general]
+	#Turn Dynamic Trees' felled trees into Sable sub-levels instead of falling-tree entities.
+	enabled = true
+	#Trees bigger than this many blocks fall the vanilla Dynamic Trees way instead.
+	# Default: 4096
+	# Range: 16 ~ 65536
+	max_blocks = 4096
+
+#What the physical tree is made of.
+[contents]
+	#Carry the leaves into the sub-level so the tree falls with its canopy.
+	keep_leaves = true
+	#Mark those leaves persistent so nothing can decay them off the fallen tree.
+	#Leave this off: Sable skips the impact shatter for persistent leaves, so turning it on costs
+	#you the canopy bursting when the tree lands. Decay is already handled by keeping Dynamic Trees'
+	#leaf ticking out of sub-levels, which is the proper fix.
+	persistent_leaves = false
+
+#Where the harvest goes.
+[drops]
+	#Drop the wood at the cut position on felling (vanilla Dynamic Trees behaviour).
+	#Off: the wood stays in the fallen tree — chop the trunk where it lies.
+	drop_wood_at_stump = false
+	#Drop the leaves' saplings/sticks at the cut position on felling.
+	#Off: they come from breaking the leaves on the fallen tree instead.
+	drop_leaves_at_stump = false
+	#Hand over the wood of the one block you chopped through, at the cut.
+	#Off (the default): that block's wood goes into the tree with the rest of it, so felling a tree
+	#pays you nothing at all and every log comes from chopping it up where it lies. It is not lost —
+	#it is banked against the fallen tree and comes out as you work through the trunk.
+	drop_cut_block = false
+	#How thick a branch has to be to count as trunk rather than as a limb.
+	#Trunk wood banks its fractions of a log and pays out in logs; anything thinner runs straight
+	#through Dynamic Trees' branch loot, which is what turns a twig into a couple of sticks.
+	#This is the line between the two, and it has to be drawn on thickness because a fallen tree has
+	#no roots left to tell a trunk from a limb by. Radii run 1 for a twig to 8 for a full log, and
+	#thicker again on a big trunk.
+	#Raise it towards 8 for strict Dynamic Trees behaviour, where only a full-thickness section is
+	#ever worth a log. Lower it and thinner limbs start paying logs too.
+	# Default: 6
+	# Range: 1 ~ 16
+	trunk_min_radius = 6
+
+#How hard the tree is shoved over. Everything else about the fall is Tree Physics' config.
+[impulse]
+	#Multiplies Tree Physics' impulse_force/impulse_torque for Dynamic Trees trees.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	multiplier = 1.0
+	#Trees up to this tall take the full shove. Taller ones are shoved proportionally less.
+	#The impulse sets a velocity outright, so without this a thirty-block redwood leaves the stump
+	#at the same speed as a sapling — and its crown, out at the end of a much longer lever, sweeps
+	#through the clearing at that speed times its height. Tall trees looked like they were being
+	#launched rather than toppling. Scaling by height keeps the speed at the top of the tree roughly
+	#the same whatever its size, which is what toppling actually looks like.
+	# Default: 8
+	# Range: 1 ~ 128
+	impulse_full_height = 8
+	#The floor under that scaling, as a fraction of the full shove.
+	#Without it a tall enough tree would be nudged so gently it just sagged onto its own stump.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	impulse_min_scale = 0.25
+
+#What comes off the tree as it comes down.
+#Every hard contact the tree makes is checked, so it loses pieces where it hits, again and
+#again, over the course of the fall. Dynamic Trees' leaves are walk-through blocks with no
+#collision shape, so the physics engine bakes no collider for them and a leaf can never
+#report an impact of its own; it is the wood that lands, and the foliage around it goes too.
+[impact]
+	#How fragile the tree is when it comes down hard. Applies to every crash it makes, not just the
+	#first — a trunk that lands, rolls and slams into a rock face crashes three times — and each
+	#one only threatens the wood that actually took the blow and the foliage right around it. The
+	#tree comes apart over the course of the fall, where it hits, rather than all at once.
+	#  0   = nothing ever breaks; the tree comes down in one piece.
+	#  100 = every block is breakable, so a tree that keeps crashing loses everything it lands on.
+	#In between it is a threshold on how tough a block can be and still give way: foliage goes
+	#first, then twigs, and it takes a high setting before a thick trunk breaks up. Whatever does
+	#break still drops its logs, sticks and saplings.
+	# Default: 100
+	# Range: 0 ~ 100
+	break_percent = 100
+	#How hard a blow has to be before it breaks anything off. Below this, contact does nothing.
+	#Most of the work is done by ignoring wood-on-wood contact rather than by this number: a trunk
+	#lying on the ground is in permanent contact with its own timber and reports it endlessly, and
+	#that is what is filtered out. This is only a floor under the rest.
+	# Default: 0.0
+	# Range: 0.0 ~ 64.0
+	min_crash_speed = 0.0
+	#Branches this thin or thinner are treated as foliage rather than as wood (Dynamic Trees radii:
+	#1 is a twig, 8 is a full log, thicker still for a big trunk).
+	#They break as readily as leaves do, and — like leaves — they hold nothing up: a trunk coming
+	#down through a canopy or snapping a twig has not landed on anything, and keeps breaking. Above
+	#this the wood starts to matter, ramping up to a full trunk that only the highest fragility
+	#settings will touch.
+	#Raise it and more of the tree shatters like brush; set it to 0 and every branch is solid wood.
+	# Default: 5
+	# Range: 0 ~ 16
+	flimsy_branch_radius = 5
+
+#Chopping a tree, standing or fallen.
+[harvest]
+	#Multiplies how long a branch takes to chop through.
+	#At 1.0 a full-thickness branch costs exactly what its vanilla log costs, and thinner branches
+	#cost less in proportion to the wood in them (a quarter-thickness branch, a quarter of the
+	#time; a twig, almost none). Above 1 makes wood tougher, below 1 quicker.
+	#This replaces Dynamic Trees' own hardness curve, which charges eight times the log for a full
+	#branch — right for felling a whole tree in one cut, far too much when you cut a felled tree up
+	#block by block.
+	# Default: 1.0
+	# Range: 0.05 ~ 64.0
+	branch_hardness_multiplier = 1.0
+	#Hold the block a standing tree grows out of shut until the tree above it has come down.
+	#Cutting that one block fells the whole tree in a single swing, which skips everything this mod
+	#is for: nothing gets chopped where it lies and no tree is ever cut halfway up. With this on,
+	#a tree has to be cut somewhere along its trunk, and the stump comes out afterwards in one hit.
+	protect_tree_base = true
+
+#How a fallen tree comes apart when it is cut.
+[splitting]
+	#A clump of leaves cut free of every branch comes apart into drops instead of becoming a
+	#physics object of its own, up to this many blocks. Larger clumps still fall as one piece.
+	#0 = every clump becomes its own physics object, however small.
+	# Default: 4
+	# Range: 0 ~ 256
+	loose_foliage_max = 4
+
+#Fallen branches lying about the forest, generated with the world.
+[worldgen]
+	#Scatter fallen branches through wooded chunks as they generate.
+	#Each one is a real physics object, not scenery: it settles onto whatever it lands on, so it
+	#lies along the slope rather than sitting flat on it, and you can chop it up for its wood or
+	#shove it out of the way like any tree you felled yourself.
+	#Off by default. Every branch is a rigid body the physics engine has to keep track of for as
+	#long as its chunk is loaded, and unlike a tree you felled it is never cleaned up, so a
+	#well-travelled world accumulates them. Raise the chance below rather than lowering it if you
+	#want more, and keep an eye on the tick time in a heavily explored world.
+	generate_fallen_branches = false
+	#How many fallen branches to scatter around each big tree — one with a trunk wider than a
+	#full block, which is every mature redwood and the like.
+	#Fractional values work and are the point of the setting: 2.5 means two branches around every
+	#such tree and a coin flip on a third, so a stand of them does not come out looking stamped.
+	#0 turns them off for big trees without turning the feature off.
+	# Default: 2.0
+	# Range: 0.0 ~ 5.0
+	branches_per_big_tree = 2.0
+	#The same, for ordinary trees — anything up to a full block thick.
+	#Worth keeping well below the big-tree figure. There are far more small trees than big ones in
+	#any wood, so this number is multiplied by a much larger count, and each branch is a rigid body
+	#the physics engine carries for as long as its chunk is loaded.
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	branches_per_small_tree = 0.5
+	#Longest a branch can be, in blocks. Each one is a run of two to this many.
+	# Default: 6
+	# Range: 2 ~ 32
+	fallen_branch_max_length = 6

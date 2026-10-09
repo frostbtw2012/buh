@@ -1,0 +1,13 @@
+name = "Fletcher's Trestle - Archery Mod"
+filename = "fletchers-trestle-NeoForge-1.21.1-2.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6edf1dfedea7a9513553d9b383405a84857e62d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9093199
+project-id = 1526202

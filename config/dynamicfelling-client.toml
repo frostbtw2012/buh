@@ -1,0 +1,2 @@
+#Show the swing counter beside the crosshair when looking at or chopping a trunk.
+showCounter = false

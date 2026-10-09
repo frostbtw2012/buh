@@ -1,0 +1,35 @@
+#Tools that skip Dynamic Felling and chop the normal way (for example chainsaws).
+#Use item IDs like "somemod:chainsaw", or item tags with a # like "#somemod:saws".
+excludedTools = []
+#Swings a wooden axe needs to fell a trunk one block wide.
+# Default: 10.0
+# Range: 1.0 ~ 100.0
+woodenAxeSwings = 32.0
+#Fraction of swings removed by each axe tier above wood (stone 1, iron 2, diamond 3, netherite 4). 0.15 means each tier needs 15% fewer swings than the one below.
+# Default: 0.15
+# Range: 0.0 ~ 0.9
+swingReductionPerTier = 0.2
+#Fraction of swings removed by each level of Efficiency. 0.1 means 10% fewer swings per level.
+# Default: 0.1
+# Range: 0.0 ~ 0.9
+swingReductionPerEfficiency = 0.1
+#Most swings any trunk can take, however wide. 0 means no limit.
+# Default: 0
+# Range: 0 ~ 200
+maxSwings = 0
+#Chance (0 to 1) that a felled tree falls back toward the player instead of away
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+backfallChance = 0.5
+#Chance (0 to 1) per hit that each bee nest in the tree releases angry bees (a campfire under the nest keeps them calm)
+# Default: 0.25
+# Range: 0.0 ~ 1.0
+beeAngerChance = 0.25
+#How far away (in blocks) a trunk can be chopped from; vanilla block reach is 4.5
+# Default: 3.0
+# Range: 1.0 ~ 6.0
+chopReach = 3.0
+#Swing multiplier for trunks and branches lying on the ground as physics objects (needs Sable,Tree Physics, and Dynamic Trees Physics). 0.5 means half the swings of a standing tree.
+# Default: 0.5
+# Range: 0.1 ~ 1.0
+fallenSwings = 0.5

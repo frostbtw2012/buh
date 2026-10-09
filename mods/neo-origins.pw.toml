@@ -1,0 +1,27 @@
+name = "Neo Origins"
+<<<<<<< HEAD
+filename = "neoorigins-2.2.29+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RUtQ9kfe/versions/cA9nVTuh/neoorigins-2.2.29%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "0c9ee9c66e36c48ff2e8404c261dc246a37088d1939fdb2b6d3b47acc14b2b88e1c7385fce207bf39147c911993c5b2ad1c8f785ea832a6fc839da681057bd29"
+=======
+filename = "neoorigins-2.2.25+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RUtQ9kfe/versions/ZvyE7LvD/neoorigins-2.2.25%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "ec713eedd0d6083f13251ede9dafb7e17e089cbd2ce62e6d2b29b11e7f356fe57ac0b1099b2f4ad47c0a446a8dee263d64c966ae9fed2a89a5343de708fb862a"
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+
+[update]
+[update.modrinth]
+mod-id = "RUtQ9kfe"
+<<<<<<< HEAD
+version = "cA9nVTuh"
+=======
+version = "ZvyE7LvD"
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c

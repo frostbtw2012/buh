@@ -1,0 +1,13 @@
+name = "Rechanted"
+filename = "rechanted-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45457a41843e44903d760a187be8359ad8400e78"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8916489
+project-id = 1602611

@@ -1,0 +1,72 @@
+{
+  "type": "tfc:cluster_vein",
+  "config": {
+    "rarity": 6,
+    "density": 0.4,
+    "min_y": 80,
+    "max_y": 300,
+    "size": 26,
+    "random_name": "montane_cassiterite",
+    "blocks": [
+      {
+        "replace": [
+          "tfc:rock/raw/granite"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_byzantium_ore",
+              "Properties": {
+                "rock": "granite"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/diorite"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_byzantium_ore",
+              "Properties": {
+                "rock": "diorite"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      },
+      {
+        "replace": [
+          "tfc:rock/raw/gabbro"
+        ],
+        "with": [
+          {
+            "block": {
+              "Name": "terra:crystalline_byzantium_ore",
+              "Properties": {
+                "rock": "gabbro"
+              }
+            },
+            "weight": 100
+          }
+        ]
+      }
+    ],
+    "indicator": {
+      "rarity": 12,
+      "depth": 35,
+      "underground_rarity": 1,
+      "underground_count": 0,
+      "blocks": [
+        {
+          "block": "tfc:ore/small_cassiterite"
+        }
+      ]
+    }
+  }
+}
