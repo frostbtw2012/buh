@@ -1,0 +1,11 @@
+{
+  "appliedPacks": [],
+  "enabledEntities": {
+    "mobends-player": false
+  },
+  "vanillaArmorItems": {},
+  "itemUseActions": {},
+  "itemAttackActions": {},
+  "customWeapons": [],
+  "previewSpinMode": "OFF"
+}

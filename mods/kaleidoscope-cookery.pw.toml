@@ -1,25 +1,13 @@
 name = "Kaleidoscope Cookery"
-<<<<<<< HEAD
-filename = "kaleidoscopecookery-1.6.0-neoforge+mc1.21.1.jar"
-=======
 filename = "kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar"
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 side = "both"
 
 [download]
 hash-format = "sha1"
-<<<<<<< HEAD
-hash = "9093e830c91a8f2e19eca7dda78713f0bbc21327"
-=======
 hash = "a08a4436ebfebee7b56beb776ea8aada489ee0ab"
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-<<<<<<< HEAD
-file-id = 9019242
-=======
 file-id = 8266772
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 project-id = 1309203

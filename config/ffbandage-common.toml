@@ -1,0 +1,12 @@
+#The min amount that the bandage heals.
+# Default: 1
+# Range: > 0
+healAmountMin = 1
+#The max amount that the bandage heals.
+# Default: 2
+# Range: > 0
+healAmountMax = 2
+#The amount of ticks to use a bandage.
+# Default: 24
+# Range: > 0
+healDuration = 24

@@ -27,8 +27,5 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
   event.remove('tfcthings:knapping/whetstone')
-<<<<<<< HEAD
-=======
   
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 })

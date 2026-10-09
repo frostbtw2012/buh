@@ -56,7 +56,7 @@
     "filter": true,
     "backtank_capacity": true,
     "goggles.requires_goggles": true,
-    "goggles": false,
+    "goggles": true,
     "blaze_burner": true,
     "exact_block": true,
     "goggles.detailed": false,
@@ -81,13 +81,65 @@
     "coordinates": false,
     "registry_name": "OFF",
     "block_properties": false,
-    "mod_name": true
+    "mod_name": false
   },
   "thermia": {
     "entity_temperature_tooltip": true
   },
   "kubejs_tfc": {
     "heat_consumer": true
+  },
+  "barebonesbrews": {
+    "cauldron_brewing": true
+  },
+  "fletcherstrestle": {
+    "steam_box": true
+  },
+  "survivorsbutchercraft": {
+    "meat_hook": true
+  },
+  "tfcthings": {
+    "snare": true,
+    "fishing_net_anchor": true,
+    "gem_display": true,
+    "grindstone_base": true,
+    "grain_pile": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "kaleidoscopetfctavern": {
+    "grape_climate": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "historystages": {
+    "pedestal_booster": true,
+    "locked_entity_item": true,
+    "locked_block": true
+  },
+  "tfcfertigation": {
+    "drip_irrigation_rack_status": true
+  },
+  "ktfcc": {
+    "decaying": true,
+    "stove": true,
+    "mugwort": true,
+    "tea_tree": true
+  },
+  "animalweights": {
+    "animal_condition": false
+  },
+  "balm": {
+    "jade": true
+  },
+  "neoorigins": {
+    "origin": true
   },
   "firmalife": {
     "barrel_press": true,
@@ -186,8 +238,32 @@
     "grindstone_base": true,
     "grain_pile": true
   },
+<<<<<<< Updated upstream
   "tfcelectriccooking": {
     "electric_oven": true,
     "electric_soup_pot": true
+=======
+  "supplementaries": {
+    "hat_stand": true
+  },
+<<<<<<< HEAD
+  "survivorsdelight": {
+    "feast_decay": true
+  },
+  "petrolpark": {
+    "drying_rack": true,
+    "flags": true
+=======
+  "astages": {
+    "block_component_provider": true
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+  },
+  "firmasupps": {
+    "candle_holder": true,
+    "sconce": true,
+    "fire_pit": true,
+    "sconce_lever": true,
+    "sconce_wall": true
+>>>>>>> Stashed changes
   }
 }

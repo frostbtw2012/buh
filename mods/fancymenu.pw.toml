@@ -1,4 +1,18 @@
 <<<<<<< Updated upstream
+name = "FancyMenu"
+filename = "fancymenu_neoforge_3.9.10_MC_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wq5SjeWM/versions/f8yonbbe/fancymenu_neoforge_3.9.10_MC_1.21.1.jar"
+hash-format = "sha512"
+hash = "36d4a2c2dd7431d4cd452ac69b2d5677a420f556b3f99e5b671e01a9501848ab534eb7c134fd1009280217c328fce75c1fc5741b9b1793a476e6257e1e3bcb1b"
+
+[update]
+[update.modrinth]
+mod-id = "Wq5SjeWM"
+version = "f8yonbbe"
+=======
 filename = 'fancymenu_neoforge_3.9.10_MC_1.21.1.jar'
 name = 'FancyMenu'
 side = 'both'
@@ -24,18 +38,4 @@ type = 'REQUIRED'
 [[x-prismlauncher-dependencies]]
 addonId = 'CVT4pFB2'
 type = 'REQUIRED'
-=======
-name = "FancyMenu"
-filename = "fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
-side = "both"
-
-[download]
-hash-format = "sha1"
-hash = "cafbef98afb4f60adea426b950c5452655040c40"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 9002957
-project-id = 367706
 >>>>>>> Stashed changes

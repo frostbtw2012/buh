@@ -1,4 +1,21 @@
 {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  "animalweights:animal_condition": null,
+  "astages:block_component_provider": null,
+  "balm:jade": null,
+  "barebonesbrews:cauldron_brewing": null,
+  "dynamicfelling:swings_to_fell": null,
+  "dynamictrees:branch": null,
+  "dynamictrees:fruit": null,
+  "dynamictrees:pod": null,
+  "dynamictrees:rooty": null,
+  "dynamictrees:rooty_water": null,
+=======
+  "astages:block_component_provider": null,
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+>>>>>>> Stashed changes
   "exposure:lightroom": null,
   "exposure:photograph_frame": null,
   "firmalife:barrel_press": null,
@@ -19,6 +36,47 @@
   "firmalife:string": null,
   "firmalife:tumbler": null,
   "firmalife:vat": null,
+<<<<<<< Updated upstream
+=======
+  "firmasupps:candle_holder": null,
+  "firmasupps:fire_pit": null,
+  "firmasupps:sconce": null,
+  "firmasupps:sconce_lever": null,
+  "firmasupps:sconce_wall": null,
+<<<<<<< HEAD
+  "fletcherstrestle:steam_box": null,
+  "ftbquests:barrier": null,
+  "greate:belt_icon": null,
+  "gtceu:auto_output_info": null,
+  "gtceu:cable_info": null,
+  "gtceu:controllable_provider": null,
+  "gtceu:custom_fluid_storage": null,
+  "gtceu:custom_item_storage": null,
+  "gtceu:data_bank": null,
+  "gtceu:electric_container_provider": null,
+  "gtceu:energy_converter_provider": null,
+  "gtceu:exhaust_vent_info": null,
+  "gtceu:fluid_storage": null,
+  "gtceu:hazard_cleaner_provider": null,
+  "gtceu:ldp_endpoint": null,
+  "gtceu:machine_mode": null,
+  "gtceu:maintenance_info": null,
+  "gtceu:multiblock_structure": null,
+  "gtceu:parallel_info": null,
+  "gtceu:primitive_pump": null,
+  "gtceu:recipe_logic_provider": null,
+  "gtceu:recipe_output_info": null,
+  "gtceu:stained_color": null,
+  "gtceu:steam_boiler_info": null,
+  "gtceu:transformer": null,
+  "gtceu:workable_provider": null,
+  "historystages:locked_block": null,
+  "historystages:locked_entity_item": null,
+  "historystages:pedestal_booster": null,
+=======
+  "ftbquests:barrier": null,
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+>>>>>>> Stashed changes
   "immersiveengineering:multiblock_icon": null,
   "immersiveengineering:multiblock_inventory": null,
   "immersiveengineering:multiblock_tank": null,
@@ -95,6 +153,23 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  "neoorigins:origin": null,
+  "petrolpark:drying_rack": null,
+  "petrolpark:flags": null,
+=======
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+  "supplementaries:hat_stand": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
+  "survivorsbutchercraft:meat_hook": null,
+<<<<<<< HEAD
+  "survivorsdelight:feast_decay": null,
+=======
+>>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
+>>>>>>> Stashed changes
   "tfc:anemometer": null,
   "tfc:animal": null,
   "tfc:axle": null,
@@ -158,11 +233,18 @@
   "tfc:windmill": null,
   "tfcelectriccooking:electric_oven": null,
   "tfcelectriccooking:electric_soup_pot": null,
+  "tfcfertigation:drip_irrigation_rack_status": null,
+  "tfcoffsetsmoker:jade.offset_smoker": null,
   "tfcthings:fishing_net_anchor": null,
   "tfcthings:fishing_net_inventory": null,
   "tfcthings:gem_display": null,
   "tfcthings:grain_pile": null,
   "tfcthings:grindstone_base": null,
   "tfcthings:snare": null,
-  "thermia:entity_temperature_tooltip": null
+  "thaumaturge:essentia": null,
+  "thaumaturge:golem": null,
+  "thaumaturge:machine": null,
+  "thaumaturge:node": null,
+  "thermia:entity_temperature_tooltip": null,
+  "thirstwastaken2:water_purity": null
 }

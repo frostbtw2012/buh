@@ -1,18 +1,4 @@
 name = "Forgified Fabric API"
-<<<<<<< HEAD
-filename = "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar"
-side = "both"
-
-[download]
-hash-format = "sha1"
-hash = "87b28db4ef88268fbbaea2c0ca7e3dfcc27961a8"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 8726480
-project-id = 889079
-=======
 filename = "forgified-fabric-api-0.116.15+2.3.4+1.21.1.jar"
 side = "both"
 
@@ -25,4 +11,3 @@ hash = "2de84db829cae926f7a90d8d828114b8d8d735ca230d518c6c3772f6f25b48838b209f75
 [update.modrinth]
 mod-id = "Aqlf1Shp"
 version = "K4hHKnnI"
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c

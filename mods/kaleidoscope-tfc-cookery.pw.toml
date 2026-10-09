@@ -1,25 +1,13 @@
 name = "Kaleidoscope TFC Cookery"
-<<<<<<< HEAD
-filename = "ktfcc-1.4.0-1.21.1.jar"
-=======
 filename = "ktfcc-1.2.4-1.21.1.jar"
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 side = "both"
 
 [download]
 hash-format = "sha1"
-<<<<<<< HEAD
-hash = "de5649dfa04f3a20785b0bbde1b79cb7f5d0dcc6"
-=======
 hash = "2028a739835a6c0d0c8249888bef18d84b1f543b"
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-<<<<<<< HEAD
-file-id = 9045050
-=======
 file-id = 8747215
->>>>>>> 6598dcc3a970f51874bb72da644ce8fde8184b4c
 project-id = 1475772
