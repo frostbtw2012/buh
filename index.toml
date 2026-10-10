@@ -58,6 +58,15 @@ file = "config/animaldiets.json"
 file = "config/animalweights.json"
 
 [[files]]
+file = "config/apoli-client.json"
+
+[[files]]
+file = "config/apoli-effects.json"
+
+[[files]]
+file = "config/apoli-scripts.json"
+
+[[files]]
 file = "config/apple_crates_client.toml"
 
 [[files]]
@@ -652,6 +661,24 @@ file = "config/historystages/logs/debug-2026-10-10_18-09-52.log"
 file = "config/historystages/logs/debug-2026-10-10_18-20-23.log"
 
 [[files]]
+file = "config/historystages/logs/debug-2026-10-10_22-22-21.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_22-33-21.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_22-44-52.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-10_22-49-54.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_00-44-09.log"
+
+[[files]]
+file = "config/historystages/logs/debug-2026-10-11_01-48-11.log"
+
+[[files]]
 file = "config/historystages/settings/gameplay.toml"
 
 [[files]]
@@ -958,6 +985,12 @@ file = "config/neoorigins/gameplay.toml"
 file = "config/neoorigins/power_overrides.toml"
 
 [[files]]
+file = "config/nerb/compat/emi.yaml"
+
+[[files]]
+file = "config/nerb/general.yaml"
+
+[[files]]
 file = "config/numismatics-client.toml"
 
 [[files]]
@@ -965,6 +998,9 @@ file = "config/numismatics-common.toml"
 
 [[files]]
 file = "config/numismatics-server.toml"
+
+[[files]]
+file = "config/origins-client.toml"
 
 [[files]]
 file = "config/origins.json"
@@ -1018,6 +1054,15 @@ file = "config/reliable_remover.json"
 file = "config/reliable_remover/removal_example.json.disabled"
 
 [[files]]
+file = "config/remains-client.toml"
+
+[[files]]
+file = "config/remains-common.toml"
+
+[[files]]
+file = "config/remains-hints-known.txt"
+
+[[files]]
 file = "config/ritchiesprojectilelib-server.toml"
 
 [[files]]
@@ -1031,6 +1076,9 @@ file = "config/siegeworks-client.toml"
 
 [[files]]
 file = "config/siegeworks-server.toml"
+
+[[files]]
+file = "config/skinlayers.json"
 
 [[files]]
 file = "config/sliceanddice-client.toml"
@@ -1229,6 +1277,21 @@ file = "config/trender.json"
 
 [[files]]
 file = "config/trotting_wagons-server.toml"
+
+[[files]]
+file = "config/vaskars-cta.json"
+
+[[files]]
+file = "config/vaskars-discord.properties"
+
+[[files]]
+file = "config/vaskars-telemetry.firsts"
+
+[[files]]
+file = "config/vaskars-telemetry.id"
+
+[[files]]
+file = "config/vaskars-telemetry.properties"
 
 [[files]]
 file = "config/vintage-client.toml"
@@ -1861,6 +1924,10 @@ file = "mods/immersive-melodies.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immersive-optimization.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersiveengineering.pw.toml"
 metafile = true
 
@@ -2053,7 +2120,19 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/opoli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/overgrowns-origins.pw.toml"
 metafile = true
 
 [[files]]
@@ -2070,6 +2149,10 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/petrolpark-library.pw.toml"
 metafile = true
 
 [[files]]
@@ -2134,6 +2217,10 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -2206,10 +2293,6 @@ metafile = true
 
 [[files]]
 file = "mods/tfc-advanced-drinks.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tfc-ambiental.pw.toml"
 metafile = true
 
 [[files]]
@@ -2334,6 +2417,10 @@ metafile = true
 
 [[files]]
 file = "mods/ui-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vaskars-remains.pw.toml"
 metafile = true
 
 [[files]]
